@@ -13,18 +13,22 @@ Exploratory Data Analysis
 **Modelling**
 
 Time Series Plotting:
+
 • Purpose: Visual inspection of data to identify trends, seasonality, and irregular components.
 • Why: Initial step to understand data behavior over time.
 
 Rolling Statistics:
+
 •Purpose: To observe the moving average and moving variance, helping to spot trends and volatility changes.
 •Why: Helps in a preliminary check for stationarity.
 
 Decomposition of Series:
+
 •Purpose: Separation of data into trend, seasonal, and residual components.
 •Why: To understand underlying patterns and to aid in handling the stationarity in the data.
 
 Stationarity Testing with ADF:
+
 •Purpose: Applying Augmented Dickey-Fuller test to formally testfor the presence of a unit root.(non-stationarity)
 •Why: Confirming stationarity is crucial before applying certainstatistical models.
 
@@ -40,9 +44,11 @@ Parameter Selection with Auto ARIMA:
 • Why: Optimizes model selection process by finding the best fit with minimal AIC.
 
 SARIMA Model Predictions:
+
 •Purpose: Applying Seasonal ARIMA models to forecast future data points with seasonality adjustments.
 •Why: SARIMA accounts for both seasonality and trends, providing more accurate forecasts.
 
 Prophet
+
 •Purpose: Prophet is compared with SARMIA method for quarterly data
 •Why: The stark decrease in the series values in Quartely series around 2020 calls for mapping these peculiar irregularities.
